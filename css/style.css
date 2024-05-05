@@ -1,0 +1,61 @@
+   body {
+    background-color: crimson;
+    font-family: system-ui, sans-serif;
+    margin:200px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    align-content: center;
+
+  }
+  
+  .container {
+    background-color: white; 
+    padding: 20px;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px; 
+    justify-content: center;
+    gap: 5px; 
+    
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+    cursor: pointer; 
+  }
+  
+  #message {
+    text-align: center; 
+    margin-bottom: 10px; 
+  }
+  
+  #restartButton {
+    display: block;
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .draw {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+h1{
+border: 5px solid gray;
+border-radius: 30px ;
+padding: 1%;
+}
